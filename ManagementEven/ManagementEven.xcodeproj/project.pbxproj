@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600DE3711EB0D8CB0049C047 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DE3701EB0D8CB0049C047 /* Event.swift */; };
+		603C53E01EB2D9AB008FBB11 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C53DF1EB2D9AB008FBB11 /* EventTableViewController.swift */; };
+		60A9CDA11EB1EA3000786B13 /* DayOfWeekEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A9CDA01EB1EA3000786B13 /* DayOfWeekEvent.swift */; };
+		60AE41581EB312CC00D83E32 /* DetailEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE41571EB312CC00D83E32 /* DetailEventViewController.swift */; };
 		F71AD4D51EAB3B0B00687EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71AD4D41EAB3B0B00687EDB /* AppDelegate.swift */; };
 		F71AD4D71EAB3B0B00687EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71AD4D61EAB3B0B00687EDB /* ViewController.swift */; };
 		F71AD4DA1EAB3B0B00687EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71AD4D81EAB3B0B00687EDB /* Main.storyboard */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		600DE3701EB0D8CB0049C047 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../Event.swift; sourceTree = "<group>"; };
+		603C53DF1EB2D9AB008FBB11 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		60A9CDA01EB1EA3000786B13 /* DayOfWeekEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayOfWeekEvent.swift; sourceTree = "<group>"; };
+		60AE41571EB312CC00D83E32 /* DetailEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailEventViewController.swift; sourceTree = "<group>"; };
 		F71AD4D11EAB3B0B00687EDB /* ManagementEven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagementEven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71AD4D41EAB3B0B00687EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F71AD4D61EAB3B0B00687EDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,13 +107,17 @@
 		F71AD4D31EAB3B0B00687EDB /* ManagementEven */ = {
 			isa = PBXGroup;
 			children = (
+				600DE3701EB0D8CB0049C047 /* Event.swift */,
 				F71AD4D41EAB3B0B00687EDB /* AppDelegate.swift */,
 				F71AD4D61EAB3B0B00687EDB /* ViewController.swift */,
 				F71AD4D81EAB3B0B00687EDB /* Main.storyboard */,
+				60AE41571EB312CC00D83E32 /* DetailEventViewController.swift */,
+				603C53DF1EB2D9AB008FBB11 /* EventTableViewController.swift */,
 				F71AD5061EAB4A2100687EDB /* EventTableViewCell.swift */,
 				F71AD4DB1EAB3B0B00687EDB /* Assets.xcassets */,
 				F71AD4DD1EAB3B0B00687EDB /* LaunchScreen.storyboard */,
 				F71AD4E01EAB3B0B00687EDB /* Info.plist */,
+				60A9CDA01EB1EA3000786B13 /* DayOfWeekEvent.swift */,
 			);
 			path = ManagementEven;
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A9CDA11EB1EA3000786B13 /* DayOfWeekEvent.swift in Sources */,
+				600DE3711EB0D8CB0049C047 /* Event.swift in Sources */,
 				F71AD5071EAB4A2100687EDB /* EventTableViewCell.swift in Sources */,
 				F71AD4D71EAB3B0B00687EDB /* ViewController.swift in Sources */,
+				603C53E01EB2D9AB008FBB11 /* EventTableViewController.swift in Sources */,
 				F71AD4D51EAB3B0B00687EDB /* AppDelegate.swift in Sources */,
+				60AE41581EB312CC00D83E32 /* DetailEventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +525,7 @@
 				F71AD4FB1EAB3B0C00687EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F71AD4FC1EAB3B0C00687EDB /* Build configuration list for PBXNativeTarget "ManagementEvenTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +534,7 @@
 				F71AD4FE1EAB3B0C00687EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F71AD4FF1EAB3B0C00687EDB /* Build configuration list for PBXNativeTarget "ManagementEvenUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +543,7 @@
 				F71AD5011EAB3B0C00687EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
